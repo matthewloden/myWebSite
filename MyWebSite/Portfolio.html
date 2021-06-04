@@ -1,0 +1,158 @@
+<header>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        Prevoius Accomplishments
+    </title>
+
+    <style>
+    .sidenav {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: powderblue;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+    .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: darkslategrey;
+    display: block;
+    transition: 0.3s;
+  }
+    .sidenav a:hover {
+    color: #f1f1f1;
+  }
+ 
+    @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</header>
+
+
+<body>
+    <div id="mySidenav" class="sidenav">
+    <a href="index.html">Home</a>
+    <a href="AboutMe.html">About Me</a>
+    <a href="Portfolio.html">Portfolio</a>
+    <a href="Qualifications.html">Qualifications</a>
+    <a href="Service.html">Service In the Community</a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 style="text-align: center; color: black;">
+      <b>Contact Me</b>
+    </h2>
+    <h5 style="text-align: center;">
+      Phone: 979-255-2193<br>
+      Email: MATTHEWLODEN@TAMU.EDU
+    </h5>
+    <div class="flex-container">
+      <div class="flex-child 3">
+        <a href="https://twitter.com/Loden99">
+        <img src="twitter.png" width="45%"  style="margin-left: 50%;">
+      </a>
+      </div>
+      <div class="flex-child 4">
+        <a href="https://www.facebook.com/matthew.loden.5">
+            <img src="facebook.svg" width="45%">
+            </a>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <style>
+     .main {
+    margin-left: 400px; /* Same as the width of the sidenav */
+    }  
+    #main {
+    transition: margin-left .5s;
+    padding: 20px;
+    }
+    .flex-container{
+      display:flex;
+    }
+    .flex-child{
+      flex:1;
+      border: 2px;
+    }
+    .flex-child:first-child{
+      margin-right:20px;
+    }
+    .center{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    </style> 
+    <div class="main" id = "main">
+        <h1 style="color: steelblue;">
+            Previous Projects
+        </h1>
+        <div class="flex-container">
+            <div class="flex-child 1">
+            <li>
+            <b>Function State Machine, Implementing a Traffic Light</b>
+            </li>
+             <p style ="justify-content: left;">
+            In  this lab design, I implemented a traffic light in an intersection between a farm road and a major highway. Using Verilog and a FPGA board, I
+             was able to create a situation where the light gave priority to the traffic on the highway however allowed the light to change depending on information
+             it gathered from a sensor.
+            </p>
+            <br><br><br><br><br><br><br>
+             <li>
+            <b>Single Cycle  Processor in an
+            <a href="https://en.wikipedia.org/wiki/ARM_architecture">
+                ARM 
+            </a> 
+            environment</b>
+            </li>
+            <p>
+            In this lab design, I used several techniques learned over the course of the semester to combine several modules together to create a single cycle system 
+            that contained the ability to respond to the input instruciton. This system was able to interpert insturctions like add, subtract, and branch
+            with other key functions of a single cycle processor.
+            </p>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <li>
+            <b>File Transfer though http network </b>
+            </li>
+            <p>
+            This project incorporated teachings from networking and packet design that allowed me to transfer files from one computer to another using http and network packets.
+            </p>
+            <br><br><br><br><br><br>
+            <li>
+            <b><a href="https://www.power-and-beyond.com/whats-the-difference-between-mosfet-and-bjt-a-909006/">BJT/MOSFET</a> Amplifier and other assorted electronic circuit designs</b>
+            <p>
+                Different circuit designs through the years of electrical engineering labs have had me create many different designs that were not singlly important enough to appear
+                seperatly however I'll include them all here grouped together.
+            </p>
+            </li>
+            </div>
+            <div class="flex-child 2">
+                <img src="trafficlight.png" width="50%" class="center">
+                <br><br>
+                <img src="singlecycle.png" width="75%">
+                <br><br><br><br><br><br><br><br><br><br>
+                <img src="Lab01_CircuitDesign.PNG" width ="100%">
+
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
